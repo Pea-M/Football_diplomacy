@@ -28,7 +28,7 @@ I, J, Y = 'country_i_iso3', 'country_j_iso3', 'year'
 SPECS = {
     # target: (outcome, fixed effects, panel end year)
     'T1': ('talent_flow_count', f'pair_key + {I}^{Y} + {J}^{Y}', 2019),
-    'T2': ('friendly_count', f'pair_key + {I}^{Y} + {J}^{Y}', 2019),
+    'T2': ('friendly_count', f'pair_key + {Y}', 2019),   # 3-way FE does not converge on 29k sparse pairs
 }
 TIME_VARYING = ['diplo_disagreement', 'rta', 'eu']
 
@@ -74,11 +74,14 @@ def run(t: str) -> list[str]:
 
 def main() -> None:
     lines = ['# Within-pair (fixed-effects Poisson) results', '',
-             'Fixed effects: country pair + origin-year + destination-year. SEs clustered by pair.',
+             'Fixed effects: T1 = pair + origin-year + destination-year; T2 = pair + year. SEs clustered by pair.',
              'Read: effect_% = change in expected links for the same pair when the variable moves; '
              'placebo row "disagreement_future" should be ~0 / not significant.', '']
     for t in ['T1', 'T2']:
-        lines += run(t)
+        try:
+            lines += run(t)
+        except Exception as e:
+            lines += [f'## {t}: FAILED - {e}', '']
         print(f'{t} done', flush=True)
     text = '\n'.join(lines) + '\n'
     (REPORTS / '09_fixed_effects.md').write_text(text, encoding='utf-8')
