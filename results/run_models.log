@@ -1,0 +1,140 @@
+T1 time     G      lag=0 PoissonGLM        0s
+T1 time     G      lag=0 RandomForest      0s
+T1 time     G      lag=0 HGB_Poisson       1s
+T1 time     G      lag=0 TwoPart           1s
+T1 time     G      lag=1 Persistence       0s
+T1 time     G      lag=1 PoissonGLM        0s
+T1 time     G      lag=1 RandomForest      0s
+T1 time     G      lag=1 HGB_Poisson       1s
+T1 time     G      lag=1 TwoPart           1s
+T1 time     G+P    lag=0 PoissonGLM        0s
+T1 time     G+P    lag=0 RandomForest      1s
+T1 time     G+P    lag=0 HGB_Poisson       1s
+T1 time     G+P    lag=0 TwoPart           1s
+T1 time     G+P    lag=1 Persistence       0s
+T1 time     G+P    lag=1 PoissonGLM        0s
+T1 time     G+P    lag=1 RandomForest      1s
+T1 time     G+P    lag=1 HGB_Poisson       1s
+T1 time     G+P    lag=1 TwoPart           1s
+T1 gkf      G      lag=0 PoissonGLM        0s
+T1 gkf      G      lag=0 HGB_Poisson       6s
+T1 gkf      G      lag=0 TwoPart           7s
+T1 gkf      G      lag=1 Persistence       0s
+T1 gkf      G      lag=1 PoissonGLM        0s
+T1 gkf      G      lag=1 HGB_Poisson       4s
+T1 gkf      G      lag=1 TwoPart           6s
+T1 gkf      G+P    lag=0 PoissonGLM        0s
+T1 gkf      G+P    lag=0 HGB_Poisson       7s
+T1 gkf      G+P    lag=0 TwoPart          12s
+T1 gkf      G+P    lag=1 Persistence       0s
+T1 gkf      G+P    lag=1 PoissonGLM        1s
+T1 gkf      G+P    lag=1 HGB_Poisson       3s
+T1 gkf      G+P    lag=1 TwoPart           5s
+T1 covid    G      lag=0 PoissonGLM        0s
+T1 covid    G      lag=0 HGB_Poisson       2s
+T1 covid    G      lag=0 TwoPart           2s
+T1 covid    G      lag=1 Persistence       0s
+T1 covid    G      lag=1 PoissonGLM        0s
+T1 covid    G      lag=1 HGB_Poisson       1s
+T1 covid    G      lag=1 TwoPart           2s
+T1 covid    G+P    lag=0 PoissonGLM        0s
+T1 covid    G+P    lag=0 HGB_Poisson       1s
+T1 covid    G+P    lag=0 TwoPart           2s
+T1 covid    G+P    lag=1 Persistence       0s
+T1 covid    G+P    lag=1 PoissonGLM        0s
+T1 covid    G+P    lag=1 HGB_Poisson       2s
+T1 covid    G+P    lag=1 TwoPart           2s
+T2 time     G      lag=0 PoissonGLM        1s
+T2 time     G      lag=0 RandomForest     10s
+T2 time     G      lag=0 HGB_Poisson       4s
+T2 time     G      lag=0 TwoPart           5s
+T2 time     G      lag=1 Persistence       0s
+T2 time     G      lag=1 PoissonGLM        1s
+T2 time     G      lag=1 RandomForest     11s
+T2 time     G      lag=1 HGB_Poisson       5s
+T2 time     G      lag=1 TwoPart           4s
+T2 time     G+P    lag=0 PoissonGLM        1s
+T2 time     G+P    lag=0 RandomForest     13s
+T2 time     G+P    lag=0 HGB_Poisson       4s
+T2 time     G+P    lag=0 TwoPart           6s
+T2 time     G+P    lag=1 Persistence       0s
+T2 time     G+P    lag=1 PoissonGLM        1s
+T2 time     G+P    lag=1 RandomForest     14s
+T2 time     G+P    lag=1 HGB_Poisson       4s
+T2 time     G+P    lag=1 TwoPart           6s
+T2 gkf      G      lag=0 PoissonGLM        3s
+T2 gkf      G      lag=0 HGB_Poisson      16s
+T2 gkf      G      lag=0 TwoPart          22s
+T2 gkf      G      lag=1 Persistence       0s
+T2 gkf      G      lag=1 PoissonGLM        3s
+T2 gkf      G      lag=1 HGB_Poisson      21s
+T2 gkf      G      lag=1 TwoPart          22s
+T2 gkf      G+P    lag=0 PoissonGLM        4s
+T2 gkf      G+P    lag=0 HGB_Poisson      17s
+T2 gkf      G+P    lag=0 TwoPart          21s
+T2 gkf      G+P    lag=1 Persistence       0s
+T2 gkf      G+P    lag=1 PoissonGLM        4s
+T2 gkf      G+P    lag=1 HGB_Poisson      17s
+T2 gkf      G+P    lag=1 TwoPart          20s
+T2 covid    G      lag=0 PoissonGLM        1s
+T2 covid    G      lag=0 HGB_Poisson       4s
+T2 covid    G      lag=0 TwoPart           4s
+T2 covid    G      lag=1 Persistence       0s
+T2 covid    G      lag=1 PoissonGLM        1s
+T2 covid    G      lag=1 HGB_Poisson       4s
+T2 covid    G      lag=1 TwoPart           4s
+T2 covid    G+P    lag=0 PoissonGLM        1s
+T2 covid    G+P    lag=0 HGB_Poisson       4s
+T2 covid    G+P    lag=0 TwoPart           4s
+T2 covid    G+P    lag=1 Persistence       0s
+T2 covid    G+P    lag=1 PoissonGLM        1s
+T2 covid    G+P    lag=1 HGB_Poisson       5s
+T2 covid    G+P    lag=1 TwoPart           5s
+T2 conflict G      lag=0 PoissonGLM        1s
+T2 conflict G      lag=0 HGB_Poisson       3s
+T2 conflict G      lag=0 TwoPart           3s
+T2 conflict G      lag=1 Persistence       0s
+T2 conflict G      lag=1 PoissonGLM        1s
+T2 conflict G      lag=1 HGB_Poisson       2s
+T2 conflict G      lag=1 TwoPart           3s
+T2 conflict G+P    lag=0 PoissonGLM        1s
+T2 conflict G+P    lag=0 HGB_Poisson       3s
+T2 conflict G+P    lag=0 TwoPart           2s
+T2 conflict G+P    lag=1 Persistence       0s
+T2 conflict G+P    lag=1 PoissonGLM        1s
+T2 conflict G+P    lag=1 HGB_Poisson       2s
+T2 conflict G+P    lag=1 TwoPart           3s
+T2 conflict G+P+C  lag=0 PoissonGLM        1s
+T2 conflict G+P+C  lag=0 HGB_Poisson       3s
+T2 conflict G+P+C  lag=0 TwoPart           4s
+T2 conflict G+P+C  lag=1 Persistence       0s
+T2 conflict G+P+C  lag=1 PoissonGLM        1s
+T2 conflict G+P+C  lag=1 HGB_Poisson       2s
+T2 conflict G+P+C  lag=1 TwoPart           3s
+
+BEST MODELS: {'T1': 'TwoPart', 'T2': 'TwoPart'}
+target split       model fset   lag  d2_explained_mean  delta_d2_vs_G  roc_auc_mean
+    T1   gkf     TwoPart    G False              0.638          0.000         0.932
+    T1   gkf Persistence    G  True             -0.660          0.000         0.760
+    T1   gkf     TwoPart    G  True              0.708          0.000         0.942
+    T1   gkf     TwoPart  G+P False              0.642          0.004         0.933
+    T1   gkf Persistence  G+P  True             -0.660          0.000         0.760
+    T1   gkf     TwoPart  G+P  True              0.709          0.001         0.943
+    T1  time     TwoPart    G False              0.726          0.000         0.928
+    T1  time Persistence    G  True             -0.345          0.000         0.786
+    T1  time     TwoPart    G  True              0.766          0.000         0.937
+    T1  time     TwoPart  G+P False              0.724         -0.002         0.928
+    T1  time Persistence  G+P  True             -0.345          0.000         0.786
+    T1  time     TwoPart  G+P  True              0.764         -0.002         0.937
+    T2   gkf     TwoPart    G False              0.320          0.000         0.917
+    T2   gkf Persistence    G  True             -2.538          0.000         0.545
+    T2   gkf     TwoPart    G  True              0.322          0.000         0.918
+    T2   gkf     TwoPart  G+P False              0.325          0.005         0.920
+    T2   gkf Persistence  G+P  True             -2.538          0.000         0.545
+    T2   gkf     TwoPart  G+P  True              0.325          0.003         0.920
+    T2  time     TwoPart    G False              0.262          0.000         0.894
+    T2  time Persistence    G  True             -2.716          0.000         0.529
+    T2  time     TwoPart    G  True              0.262          0.000         0.894
+    T2  time     TwoPart  G+P False              0.265          0.003         0.895
+    T2  time Persistence  G+P  True             -2.716          0.000         0.529
+    T2  time     TwoPart  G+P  True              0.264          0.002         0.896

@@ -38,6 +38,8 @@ def fig_ablation(master: pd.DataFrame, split: str) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5), sharey=False)
     for ax, t in zip(axes, ['T1', 'T2']):
         d = s[s['target'] == t].copy()
+        if d.empty:
+            ax.set_visible(False); continue
         d['config'] = d['fset'] + np.where(d['lag'], ' + lag', '')
         pv = d.pivot_table(index='model', columns='config', values='d2_explained_mean')
         err = d.pivot_table(index='model', columns='config', values='d2_explained_std').reindex_like(pv)

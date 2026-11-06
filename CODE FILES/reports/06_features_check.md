@@ -9,14 +9,14 @@
 - T2: existence filter kept 823,284 of 895,404 rows; target kept 8,399.0 of 8,607.0
 
 ## T1 talent flows (directed)
-- rows 203,280 | years 1994-2021 | origins 243 | destinations 30 | pairs 6,825
-- non-zero rows 6,681 (3.29%) | target total 16,399
-- target per year: first 3 {1994: 0, 1995: 0, 1996: 0} | last 3 {2019: 2410, 2020: 2509, 2021: 2815}
-- coverage: distance 88.4% | UN disagreement 69.8% | lag_target 96.4%
+- rows 87,120 | years 2010-2021 | origins 243 | destinations 30 | pairs 6,825
+- non-zero rows 6,418 (7.37%) | target total 16,071
+- target per year: first 3 {2010: 206, 2011: 303, 2012: 432} | last 3 {2019: 2410, 2020: 2509, 2021: 2815}
+- coverage: distance 90.2% | UN disagreement 73.5% | lag_target 100.0%
 - GBR present: True | ENG/SCO present (should be False): False
-- conflict coverage in target years <= 2011: 77.6%; pair-years with an ongoing MID: 595
+- conflict coverage in target years <= 2011: 76.3%; pair-years with an ongoing MID: 19
 - destinations list: ['ARG', 'AUS', 'AUT', 'BEL', 'BRA', 'CHE', 'CZE', 'DEU', 'DNK', 'ESP', 'FRA', 'GBR', 'GRC', 'HRV', 'ITA', 'JPN', 'KOR', 'MEX', 'NLD', 'NOR', 'POL', 'PRT', 'ROU', 'RUS', 'SAU', 'SRB', 'SWE', 'TUR', 'UKR', 'USA']
-- lag_target vs lag_reverse_flow correlation (must be < 1): 0.107
+- lag_target vs lag_reverse_flow correlation (must be < 1): 0.064
 
 ## T2 friendlies (undirected)
 - rows 823,284 | years 1994-2021 | origins 242 | second countries 242 | pairs 29,403

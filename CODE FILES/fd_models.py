@@ -51,7 +51,7 @@ LAGS = {'T1': ['log1p_lag_target', 'log1p_lag_reverse'], 'T2': ['log1p_lag_targe
 # split -> (feature sets, models). RandomForest only where it matters, to save time.
 PLAN = {
     'time':     (['G', 'G+P'], ['Persistence', 'PoissonGLM', 'RandomForest', 'HGB_Poisson', 'TwoPart']),
-    'gkf':      (['G', 'G+P'], ['Persistence', 'PoissonGLM', 'RandomForest', 'HGB_Poisson', 'TwoPart']),
+        'gkf':      (['G', 'G+P'], ['Persistence', 'PoissonGLM', 'HGB_Poisson', 'TwoPart']),
     'covid':    (['G', 'G+P'], ['Persistence', 'PoissonGLM', 'HGB_Poisson', 'TwoPart']),
     'conflict': (['G', 'G+P', 'G+P+C'], ['Persistence', 'PoissonGLM', 'HGB_Poisson', 'TwoPart']),
 }
@@ -156,7 +156,7 @@ def run_all(gml_last) -> pd.DataFrame:
         y_all = df[TARGET[t]].to_numpy(dtype=float)
         lag_raw = df['lag_target'].fillna(0).to_numpy(dtype=float)
         for split, (fsets, models) in PLAN.items():
-            if (QUICK and split != 'time') or (split == 'conflict' and gml_last is None):
+            if (QUICK and split != 'time') or (split == 'conflict' and (gml_last is None or t == 'T1')):
                 continue
             folds = make_splits(df, split, gml_last)
             for fset in fsets:

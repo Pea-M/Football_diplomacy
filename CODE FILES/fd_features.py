@@ -174,7 +174,7 @@ def build_t1(cep, conf, log) -> pd.DataFrame:
         p = p.merge(conf, on=['pair_key', Y], how='left')
     else:
         p[CONF_OUT] = np.nan
-    return p[p[Y].between(FIRST_TARGET_YEAR, LAST_TARGET_YEAR)].reset_index(drop=True)
+    return p[p[Y].between(2010, LAST_TARGET_YEAR)].reset_index(drop=True)
 
 
 def build_t2(cep, conf, log) -> pd.DataFrame:
