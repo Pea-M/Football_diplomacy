@@ -1,0 +1,7 @@
+feature_set,feature,mean_importance,std_importance
+G+P,conflict_onset,0.0,0.0
+G+P,conflict_ongoing,0.0,0.0
+G+P,max_hostility,0.0,0.0
+G+P+C,conflict_onset,0.0,0.0
+G+P+C,conflict_ongoing,0.0,0.0
+G+P+C,max_hostility,0.0,0.0

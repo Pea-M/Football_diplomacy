@@ -1,0 +1,8 @@
+feature,expected_sign,glm_irr,glm_sign,pdp_direction,note
+log_distw,negative,0.6553880254928147,negative,flat,surprise
+log_gdp_o,positive,1.0157897636593614,positive,flat,surprise
+log_gdp_d,positive,1.3646808653281737,positive,flat,surprise
+contig,positive,1.133054609295642,positive,flat,surprise
+diplo_disagreement,negative,0.8187141512792627,negative,flat,surprise
+col45,positive,1.4812945301082905,positive,flat,surprise
+comcol,positive,0.287283787376607,negative,flat,surprise

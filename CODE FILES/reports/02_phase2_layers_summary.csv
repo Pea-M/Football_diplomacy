@@ -1,0 +1,5 @@
+layer,raw_rows,window_rows,after_player_join,after_club_join,after_comp_join,known_nationality_share,known_destination_share,agg_rows,mapped_rows,after_gbr_drop,final_rows
+transfers,175165,100851,100851.0,100851.0,100851.0,0.9956966217489167,0.37451289526132614,7209.0,,,
+fixtures,49940,26162,,,,,,20210.0,25230.0,25199.0,
+cepii_gravity,4699296,1841616,,,,,,,,,1841616.0
+cow_mid,842685,324968,,,,,,,324389.0,,324389.0
